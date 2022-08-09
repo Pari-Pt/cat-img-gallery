@@ -43,3 +43,16 @@ h1 {
     content:"";
     width:350px;
 }
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    color: rgb(239, 13, 175);
+}
+
+a:hover {
+    color: rgb(13, 235, 28);
+}
