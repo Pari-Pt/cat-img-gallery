@@ -1,9 +1,22 @@
+* {
+    box-sizing: border-box;
+  }
 body {
     margin: 0;
+    background-color:rgb(241, 217, 221);
+    color: rgb(81, 79, 79);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
+.header {
     text-align: center;
+    background-color: rgb(244, 238, 245);
+    padding: 30px 0;
+    border-bottom: 2px solid rgb(81, 79, 79);
+}
+
+h1 {
+    margin: 0;
 }
 .gallery {
     display: flex;
@@ -11,7 +24,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 1400px;
     gap: 16px;
     margin: 0 auto;
     padding: 20px 10px;
@@ -22,4 +35,10 @@ header {
     max-width: 360px;
     height: 300px;
     object-fit: cover;
+    border-radius: 15px;
+}
+
+.gallery::after {
+    content:"";
+    width:350px;
 }
